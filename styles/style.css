@@ -5,10 +5,10 @@ main {
 aside {
   width: 20rem;
   margin: 1rem;
-  border: 1px solid rgba (0 ,0, 0, 0.2); 
+  border: 1px solid rgba(209, 148, 34, 0.856); 
   padding: 1rem;
-  background-color: #eee;
-  color: #333;
+  background-color: #eeeeeed5;
+  color: #0a07bdec;
   text-align: center;
 }
 
