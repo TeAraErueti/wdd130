@@ -69,7 +69,7 @@ header img {
 h2 {
     text-align: left;
     font-size: 1.5rem;
-    font-family: var(--secondary-color);
+    font-family: var(--heading-font);
     color: var(--secondary-color)
 }
 
