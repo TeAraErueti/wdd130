@@ -32,7 +32,8 @@ header nav{
 nav a {    
     display:flex;    
     text-decoration: none;
-    color: var(--secondary-color);
+    color: rgba(89, 68, 207, 0.945);
+    font-size: 1.3rem;
 }
 
 header img {
