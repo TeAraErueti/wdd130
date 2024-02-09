@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0"> 
+    <title>WDD130 | HTML Form - User Poll</title>
+    <meta name="description" content="Te Ara Erueti's BYU-Idaho WDD130 Poll Form">
+    <meta name="author" content="Te Ara Erueti">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+<header>
+    <h1>WDD130 | Te Ara Erueti | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class = "form-item column2">
+            <label>Full Name:<input type='text' name='fullname'></label>
+            </div>
+            <div class = "form-item column2">
+            <label>Email: <input type='email' name='useremail'></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <div class = "form-item column1">
+            <label for="browser">What is your favorite internet browser?</label>
+            <select id="browser" name="browser">
+                <option value="Chrome">Chrome</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Safari">Safari</option>
+                <option value="Edge">Edge</option>
+                <option value="Brave">Brave</option>
+                <option value="Other">Other</option>
+            </select>
+            </div>
+            <div class = "form-item column1">
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class = "lived">
+            <label for="feedback">List the places you have lived:</label></div>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+            
+        </fieldset>
+    <button type="submit">Submit Poll</button>
+    </form>
+</main>
+<footer>
+    <p>&copy;2024 | HTML Form - User Poll Activity | Te Ara Erueti</p>
+</footer>
+</body>
+</html>
