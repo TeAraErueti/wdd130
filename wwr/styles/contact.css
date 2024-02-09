@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #EEF2BB;
+    --secondary-color: #478585;
+    --accent1-color: #B4996A;
+    --accent2-color: #ACC3BC;
+
+    --heading-font: 'Inter', sans-serif;
+    --paragraph-font: 'Inter', sans-serif;
+
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header nav{
+    margin: 1rem auto;
+    display:grid;   
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 255, 0.418);
+    max-width: 800px;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: 1rem;
+}
+
+nav a {    
+    display:flex;    
+    text-decoration: none;
+    color: rgba(89, 68, 207, 0.945);
+    font-size: 1.3rem;
+}
+
+header img {
+    width: 170px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 10px;
+    box-shadow: 0 0 5px steelblue;
+    float: left;
+    margin: 1rem auto;
+}
+
+
+h1 {
+    position:relative;
+    top: 5px;
+    padding:5px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--heading-font);
+    color:#383d86;
+}
+
+h2 {
+    position:relative;
+    top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--heading-font);
+    color:#383d86;
+}
+
+.employees img {
+    width: 220px;
+    height: auto;
+}
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;   
+    position: relative;
+    top: 20px;
+    left: -35px;
+    right: 0; 
+    font-family: var(--paragraph-font);
+    text-align: center;
+    font-size: 1.3rem;
+    color:#2d2594;
+   
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color:#234b4b;
+    font-size: 1rem;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr auto;    
+    font-family: var(--paragraph-font);
+}
+
+.sociallinks{
+    position: relative;
+    top: -10px;
+    color: var(--nav-link-color);
+    text-decoration: none;    
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    gap: 10px;    
+}
+
+.sociallinks img{
+    width: 60px;
+    height:60px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color:#eee;
+    display:grid;
+}
+
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+label, input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px; 
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+
+
+
