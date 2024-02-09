@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0"> 
+    <title>WDD130 | HTML Form - User Poll</title>
+    <meta name="description" content="Te Ara Erueti's BYU-Idaho WDD130 Quiz">
+    <meta name="author" content="Te Ara Erueti">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+<header>
+    <h1>Basic HTML and CSS Quiz</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            
+            <div class = "form-item">
+            <label for="q1">1. In web design what does the acronym HTML stand for?</label><br>
+            <input type="text" id="q1" name="q1">
+            </div>
+
+            <div class = "form-item column1">
+            <label for="q2">2. In web design what does the acronym CSS stand for?</label>
+            <textarea id="q2" name="q2" rows="4" placeholder="Place your answer in this box"></textarea>
+            </div>
+
+            <div class = "form-itemthree">
+            <label for="q3">3. In web design what are HTML tags?</label><br>
+            </div>
+            <select id="q3" name="q3">
+                <option value="" selected disabled>Choose one...</option>
+                <option value="tags beginning and end">Mark the beginning and end of an element</option>
+                <option value="tag a wall">Used to tag a wall</option>
+                <option value="tag as a header">A tag is a header</option>
+                <option value="tag is a footer">A tag is a footer</option>
+            </select> <br>
+            
+           
+            <label for="q4">4. What is the top margin value for this css declaration?</label><br>
+            <div class = "CSS4">   
+            <label for="q4">margin: 20px 10px 5px;</label>
+            </div><br>
+            <input type="number" id="q4" name="q4" min="5" max="20">
+                 
+            
+        </fieldset>
+    <button type="submit">Submit Quiz</button>
+    </form>
+</main>
+<footer>
+    <p>&copy;2024 | HTML & CSS Quiz | Te Ara Erueti</p>
+</footer>
+</body>
+</html>
