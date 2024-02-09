@@ -126,7 +126,6 @@ form {
     display:grid;
 }
 
-
 fieldset {
     display: grid;
     grid-gap: 0.5rem;
@@ -142,7 +141,7 @@ legend {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-label, input, button, select, textarea {
+label, input, button, textarea {
     font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 
@@ -151,7 +150,7 @@ label {
     padding-right: 1rem;
 }
 
-input, select, textarea {
+input, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
