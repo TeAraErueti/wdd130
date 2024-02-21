@@ -44,6 +44,8 @@ header nav{
 
 .headerfull{
     background-color: rgb(51, 153, 51);
+    font-size: 1.4rem;
+    font-weight: 550;
     padding: 1rem;
     display: flex;
     position: relative;
@@ -51,13 +53,13 @@ header nav{
     align-items: center; 
   }
 
-.headerfull a{
+/*.headerfull a{
     background-color: #eaf73c;
     color: rgb(78, 21, 211);
     font-size: 1.4rem;
     font-weight: 550;
     border:1px solid #341896
-}
+}*/
 
 nav a {      
     position: relative;
