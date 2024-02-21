@@ -51,6 +51,14 @@ header nav{
     align-items: center; 
   }
 
+.headerfull a{
+    background-color: #eaf73c;
+    color: rgb(78, 21, 211);
+    font-size: 1.4rem;
+    font-weight: 550;
+    border:1px solid #341896
+}
+
 nav a {      
     position: relative;
     display: flex;
@@ -58,11 +66,9 @@ nav a {
     align-items: center; 
     padding: 10px;    
     text-decoration: none;
-    color: rgb(51, 11, 197);
-    font-size: 1.3rem;
-    font-weight: 550;
-    border: 2px solid #111cbed8;
-    background-color: rgb(240, 225, 20);
+    color: rgb(241, 219, 219);
+
+    
 }
 
 header img {
