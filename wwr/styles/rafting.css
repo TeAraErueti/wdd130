@@ -38,13 +38,13 @@ header nav{
     align-items: center; 
   }
 
-/*.headerfull a{
+.headerfull a{
     background-color: #eaf73c;
     color: rgb(78, 21, 211);
     font-size: 1.4rem;
     font-weight: 550;
     border:1px solid #341896
-}*/
+}
 
 nav a {      
     position: relative;
